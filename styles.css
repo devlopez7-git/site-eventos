@@ -199,6 +199,7 @@ ul li i {
   background: linear-gradient(45deg, #ff6347, #ff4500); /* Cores consistentes */
   color: #ffffff;
   text-decoration: none;
+  margin: 9px;
   border-radius: 4px;
   font-weight: 600;
   font-size: 1rem;
