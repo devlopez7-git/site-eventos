@@ -170,3 +170,44 @@ ul li i {
     font-size: 0.9rem;
   }
 }
+
+/* Botões */
+.cta-button a {
+  display: inline-block;
+  padding: 0.7rem 1.4rem; /* Botões menos “gordos” */
+  
+  background: linear-gradient(45deg, #ff6347, #ff4500);
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta-button a:hover {
+  background: linear-gradient(45deg, #ff4500, #e63900);
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Novo botão para envio com o mesmo espaçamento e estilo */
+.cta-button-enviar a {
+  display: inline-block;
+  padding: 0.7rem 1.4rem;  /* Mesmo espaçamento dos outros botões */
+  background: linear-gradient(45deg, #ff6347, #ff4500); /* Cores consistentes */
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta-button-enviar a:hover {
+  background: linear-gradient(45deg, #ff4500, #e63900); /* Cores consistentes */
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
